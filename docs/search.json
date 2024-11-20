@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources and reading",
+    "section": "",
+    "text": "These are just a small selection of the tools I use very regularly; many many more exist, and my choice of the following is purely personal preference.\n\n\n\nWAVE: this web accessibility evaluation tool allows you to simply plug in a URL and see potential errors and issues. It’s also available as a browser plugin.\nChrome developer tools (also opened from Chrome with ctrl+shift+i): the mobile layout preview is particularly useful for checking any layout issues in your app. Similar tools exist for Firefox, I just haven’t used these for website/webapp testing.\n\n\n\n\n\nViz palette, a tool to assess your colour choices. This explanatory article is worth a read too.\nColorgorical, a tool for creating colour palettes, and the associated paper.\nChroma.js Color Palette Helper\n\n\n\n\n\nWhile the Quarto documentation is fantastic, I found the following resources really useful when figuring out how to use Quarto as a basis for custom websites and static dashboards.\n\nLecture slides: “Customizing Quarto Websites”. These slides walk you through practicalities like setting up custom fonts from Google Fonts, and delves into Sass, CSS, and HTML5.\n\n\n\n\n\nColor in UI Design: A (Practical) Framework\n\n\n\n\nPlease note that good, accessible colour palettes for web design are not always going to be the same as good, accessible colour palettes for data visualisation!\n\nData color picker\nAccessible color palette generator"
+  },
+  {
+    "objectID": "resources.html#accessibility-tools",
+    "href": "resources.html#accessibility-tools",
+    "title": "Resources and reading",
+    "section": "",
+    "text": "These are just a small selection of the tools I use very regularly; many many more exist, and my choice of the following is purely personal preference.\n\n\n\nWAVE: this web accessibility evaluation tool allows you to simply plug in a URL and see potential errors and issues. It’s also available as a browser plugin.\nChrome developer tools (also opened from Chrome with ctrl+shift+i): the mobile layout preview is particularly useful for checking any layout issues in your app. Similar tools exist for Firefox, I just haven’t used these for website/webapp testing.\n\n\n\n\n\nViz palette, a tool to assess your colour choices. This explanatory article is worth a read too.\nColorgorical, a tool for creating colour palettes, and the associated paper.\nChroma.js Color Palette Helper"
+  },
+  {
+    "objectID": "resources.html#guides-to-using-quarto",
+    "href": "resources.html#guides-to-using-quarto",
+    "title": "Resources and reading",
+    "section": "",
+    "text": "While the Quarto documentation is fantastic, I found the following resources really useful when figuring out how to use Quarto as a basis for custom websites and static dashboards.\n\nLecture slides: “Customizing Quarto Websites”. These slides walk you through practicalities like setting up custom fonts from Google Fonts, and delves into Sass, CSS, and HTML5."
+  },
+  {
+    "objectID": "resources.html#general-uiux-design-articles",
+    "href": "resources.html#general-uiux-design-articles",
+    "title": "Resources and reading",
+    "section": "",
+    "text": "Color in UI Design: A (Practical) Framework"
+  },
+  {
+    "objectID": "resources.html#other-colour-tools",
+    "href": "resources.html#other-colour-tools",
+    "title": "Resources and reading",
+    "section": "",
+    "text": "Please note that good, accessible colour palettes for web design are not always going to be the same as good, accessible colour palettes for data visualisation!\n\nData color picker\nAccessible color palette generator"
+  },
+  {
+    "objectID": "using-quarto.html",
+    "href": "using-quarto.html",
+    "title": "How-to content here",
+    "section": "",
+    "text": "How-to content here"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Building better dashboards",
+    "section": "",
+    "text": "Webapps and dashboards are becoming an ever more popular way to present and share the results of data science projects. While dashboards can be a great way to communicate findings, they also present a range of challenges when it comes to accessible UI design.\n\n\n\nResearchers are not web/UX designers, and have to “muddle through” when it comes to making decisions about colour schemes and navigation.\n\nWeb accessibility requirements and how to implement features that meet these requirements are often not covered in framework documentation or tutorials.\n\nFrameworks designed to allow easy porting of research analysis into webapps often use languages not specifically designed for web design (e.g. Python, R), making it sometimes difficult to customise variables required for good web accessibility.\nImplementation of custom theming and css files can be varied across different frameworks (Shiny for R and Python, Dash, Streamlit), making it challenging to enforce a standard theme across a range of different web apps (for example, from a single research group).\nHosting of interactive webapps is expensive and difficult to budget for due to cloud subscription models.\nNavigation of interactive webapps is more chalenging that a static web page as often times back and forward browser keys do not work as intended.\n\nWhile almost every issue around branding and accessibility can be met with some custom css and html, I wanted to put together some easy-to-implement tools for people building simple webapps in order to make customising appearance that little bit easier.\n\n\n\n\n\n\nWho is this useful for\n\n\n\nHopefully this resource will be useful to you if you are building your first webapp, or if you have built a simple webapp before and struggled to apply consistent theming to it with custom css.\nAdditionally, this should be useful to anyone (or any group) that needs to produce multiple web apps with a similar look/branding, but is using a range of different tools (so both R and Python, for example).\nSo far, this resource mainly deals with basic webapps that can be rendered statically (so some minor interactivity in-browser); however, Quarto allows for fully-developed interactivity with packages like Shiny, so in the future I might develop this further to show how you can build a full dashboard/webapp and containerise it for hosting."
+  },
+  {
+    "objectID": "index.html#common-issues-with-webapp-design",
+    "href": "index.html#common-issues-with-webapp-design",
+    "title": "Building better dashboards",
+    "section": "",
+    "text": "Researchers are not web/UX designers, and have to “muddle through” when it comes to making decisions about colour schemes and navigation.\n\nWeb accessibility requirements and how to implement features that meet these requirements are often not covered in framework documentation or tutorials.\n\nFrameworks designed to allow easy porting of research analysis into webapps often use languages not specifically designed for web design (e.g. Python, R), making it sometimes difficult to customise variables required for good web accessibility.\nImplementation of custom theming and css files can be varied across different frameworks (Shiny for R and Python, Dash, Streamlit), making it challenging to enforce a standard theme across a range of different web apps (for example, from a single research group).\nHosting of interactive webapps is expensive and difficult to budget for due to cloud subscription models.\nNavigation of interactive webapps is more chalenging that a static web page as often times back and forward browser keys do not work as intended.\n\nWhile almost every issue around branding and accessibility can be met with some custom css and html, I wanted to put together some easy-to-implement tools for people building simple webapps in order to make customising appearance that little bit easier.\n\n\n\n\n\n\nWho is this useful for\n\n\n\nHopefully this resource will be useful to you if you are building your first webapp, or if you have built a simple webapp before and struggled to apply consistent theming to it with custom css.\nAdditionally, this should be useful to anyone (or any group) that needs to produce multiple web apps with a similar look/branding, but is using a range of different tools (so both R and Python, for example).\nSo far, this resource mainly deals with basic webapps that can be rendered statically (so some minor interactivity in-browser); however, Quarto allows for fully-developed interactivity with packages like Shiny, so in the future I might develop this further to show how you can build a full dashboard/webapp and containerise it for hosting."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Webapps and dashboards are becoming an ever more popular way to present and share the results of data science projects. While dashboards can be a great way to communicate findings, they also present a range of challenges when it comes to accessible UI design.\n\n\nTo start off, I’d really recommend you read this brief blogpost on web accessibility standards from Jumping Rivers.\nOnce you’ve scrolled through, this website provides you with much more detailed information, including introductory videos. This resource contains a slightly overwhelming amount of information, so I would recommend dipping in and out.\nOk, so what does this mean for you? Well, many web apps built with common R and Python libraries do not meet WCAG standards out-of-the-box. How can you test this? If you’ve built a web app, you can toss the URL into a tool like WAVE and see how many error messages you get.\n\n\n\nOk, so what does this mean for you?\n\nBy default, without customising css and html content, it is likely your Python or R webapp does not meet accessibility guidelines (see this great deep dive into RShiny accessibility again from Jumping Rivers).\nThis means that some visitors to your website, particularly those using a screen reader, may not be able to parse your content.\nIt also might mean that your webapp displays poorly, with low contrast, and too-small text font, making it difficult to navigate by sight.\n\nWe should be building a web that is accessible and inclusive to all. You are likely building your webapp because you want to share the results of your research: don’t cut off a cohort of your audience by forgetting accessibility! Also, it’s very likely that you are breaching your institution or funders requirements by producing web output that is not accessible!\n\n\n\n\nIf you already have a webapp, use WAVE to assess it’s current accessibility.\nIf you haven’t a webapp yet, read the UK Government Design Principles before you start designing one. Then, head over to the Guidance page.\n\n\nWebapps can often look amateurish as researchers are not UI/UX designers."
+  },
+  {
+    "objectID": "about.html#web-accessibility",
+    "href": "about.html#web-accessibility",
+    "title": "Getting Started",
+    "section": "",
+    "text": "To start off, I’d really recommend you read this brief blogpost on web accessibility standards from Jumping Rivers.\nOnce you’ve scrolled through, this website provides you with much more detailed information, including introductory videos. This resource contains a slightly overwhelming amount of information, so I would recommend dipping in and out.\nOk, so what does this mean for you? Well, many web apps built with common R and Python libraries do not meet WCAG standards out-of-the-box. How can you test this? If you’ve built a web app, you can toss the URL into a tool like WAVE and see how many error messages you get."
+  },
+  {
+    "objectID": "about.html#accessibility-concerns",
+    "href": "about.html#accessibility-concerns",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Ok, so what does this mean for you?\n\nBy default, without customising css and html content, it is likely your Python or R webapp does not meet accessibility guidelines (see this great deep dive into RShiny accessibility again from Jumping Rivers).\nThis means that some visitors to your website, particularly those using a screen reader, may not be able to parse your content.\nIt also might mean that your webapp displays poorly, with low contrast, and too-small text font, making it difficult to navigate by sight.\n\nWe should be building a web that is accessible and inclusive to all. You are likely building your webapp because you want to share the results of your research: don’t cut off a cohort of your audience by forgetting accessibility! Also, it’s very likely that you are breaching your institution or funders requirements by producing web output that is not accessible!"
+  },
+  {
+    "objectID": "about.html#quick-start",
+    "href": "about.html#quick-start",
+    "title": "Getting Started",
+    "section": "",
+    "text": "If you already have a webapp, use WAVE to assess it’s current accessibility.\nIf you haven’t a webapp yet, read the UK Government Design Principles before you start designing one. Then, head over to the Guidance page."
+  },
+  {
+    "objectID": "about.html#branding-and-theming",
+    "href": "about.html#branding-and-theming",
+    "title": "Getting Started",
+    "section": "",
+    "text": "Webapps can often look amateurish as researchers are not UI/UX designers."
+  },
+  {
+    "objectID": "about.html#where-to-begin",
+    "href": "about.html#where-to-begin",
+    "title": "Getting Started",
+    "section": "Where to begin?",
+    "text": "Where to begin?\n\n\n\n\n\n\nI already have a webapp that I want to improve\n\n\n\n\n\nUse the WAVE tool to assess your webapp’s accessibility.\nFixing these issus can be a challenge: different libraries and frameworks for building apps will have different ways of accessing and modifying things like HTML tags. Again, see this deep dive into RShiny accessibility to see how you might want to approach this.\n\n\n\n\n\n\n\n\n\nI’m building a new webapp\n\n\n\n\n\nThen you’re the ideal audience for this resource.\nFirst, read through the UK Government Design Principles and think about how this could be applied to your prospective webapp. Then, head over to Guidance to see our step-by-step guide."
+  }
+]
