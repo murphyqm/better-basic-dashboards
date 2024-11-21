@@ -95,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./using-quarto.html"> 
-<span class="menu-text">Guidance</span></a>
+<span class="menu-text">Guidance for Quarto</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./resources.html"> 
@@ -163,12 +163,22 @@ ul.task-list li input[type="checkbox"] {
 <p>If you haven’t a webapp yet, read the <a href="https://www.gov.uk/guidance/government-design-principles">UK Government Design Principles</a> before you start designing one. Then, head over to <a href="./using-quarto.html">the Guidance page</a>.</p>
 </section></div><section id="branding-and-theming" class="level2">
 <h2 class="anchored" data-anchor-id="branding-and-theming">Branding and theming</h2>
-<p>Webapps can often look amateurish as researchers are not UI/UX designers.</p>
+<p>Webapps can often look amateurish as researchers are not UI/UX designers. One way to improve the appearance of a specific research group’s webapps is to implement a standard style guide that applies across all apps.</p>
+<p>This can be as simple as:</p>
+<ul>
+<li>Defining what theme should be used as standard across all apps (for example, <a href="https://bootswatch.com/">Bootswatch</a> themes are available across RShiny, Shiny for Python, and Dash apps), which quickly provides a cohesive appearance and outsources design choices.</li>
+<li>Providing custom scss and css theming files to build on top of the default base theme, for example pulling in branding colours. For example, you may want the navigation bar to always have a white background, so that your logo can be placed on it while adhering to branding guidelines.</li>
+<li>Providing a footer template with correct copyright and license notices.</li>
+</ul>
 </section>
 </section>
 <section id="a-new-way-of-thinking-about-webapps" class="level1">
 <h1>A new way of thinking about webapps</h1>
-<p>Perhaps the dashbaord can be embedded in a larger scale website?</p>
+<p>Webapps are frequently used as they allow for interactivity with research data. However, webapps also often contain a lot of text and other contextual material that does not depend on the interactivity aspects of the app.</p>
+<ul>
+<li>Is it possible to migrate this information to an easier-to-navigate simple website, and instead embed some of the interactive parts (e.g.&nbsp;an embedded interactive map within a website)?</li>
+<li>Might the interactivity be possible to render in-browser without the costly requirements of hosting an entire webapp (for example on Azure)?</li>
+</ul>
 <section id="where-to-begin" class="level2">
 <h2 class="anchored" data-anchor-id="where-to-begin">Where to begin?</h2>
 <div class="callout callout-style-default callout-note callout-titled">

@@ -34,11 +34,20 @@ before you start designing one. Then, head over to  [the Guidance page](using-qu
 
 ## Branding and theming
 
-Webapps can often look amateurish as researchers are not UI/UX designers.
+Webapps can often look amateurish as researchers are not UI/UX designers. One way to improve the appearance of a specific research group's webapps is to implement a standard style guide that applies across all apps.
+
+This can be as simple as:
+
+- Defining what theme should be used as standard across all apps (for example, [Bootswatch](https://bootswatch.com/) themes are available across RShiny, Shiny for Python, and Dash apps), which quickly provides a cohesive appearance and outsources design choices.
+- Providing custom scss and css theming files to build on top of the default base theme, for example pulling in branding colours. For example, you may want the navigation bar to always have a white background, so that your logo can be placed on it while adhering to branding guidelines.
+- Providing a footer template with correct copyright and license notices.
 
 # A new way of thinking about webapps
 
-Perhaps the dashbaord can be embedded in a larger scale website?
+Webapps are frequently used as they allow for interactivity with research data. However, webapps also often contain a lot of text and other contextual material that does not depend on the interactivity aspects of the app.
+
+- Is it possible to migrate this information to an easier-to-navigate simple website, and instead embed some of the interactive parts (e.g. an embedded interactive map within a website)?
+- Might the interactivity be possible to render in-browser without the costly requirements of hosting an entire webapp (for example on Azure)?
 
 ## Where to begin?
 

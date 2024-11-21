@@ -9,7 +9,7 @@ website:
       - href: about.qmd
         text: Getting Started
       - href: using-quarto.qmd
-        text: Guidance
+        text: Guidance for Quarto
       - href: resources.qmd
         text: Resources
   page-footer:
