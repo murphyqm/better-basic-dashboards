@@ -12,6 +12,10 @@ website:
         text: Guidance for Quarto
       - href: resources.qmd
         text: Resources
+      - href: dash01.qmd
+        text: Example Dash 1
+      - href: dash02.qmd
+        text: Example Dash 2
   page-footer:
     background: secondary
     left: Copyright 2024, Maeve Murphy Quinlan
