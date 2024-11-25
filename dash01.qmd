@@ -2,13 +2,12 @@
 title: "Example test dashboard"
 format:
     dashboard:
-        orientation: columns
         theme: 
         - litera
         - custom.scss
 --- 
 
-
+# Plotting with Plotly
 
 ```{python}
 
@@ -36,9 +35,9 @@ data["Result"] = (data["zoning"]=="Pass") * (data["rounding"]=="Pass")
 data.Result= data.Result.replace({True: "Pass", False: "Fail"})
 ```
 
-## Column {width=50%}
+## Row {height=100%}
 
-::: {.card title="Building dashboards with Python"}
+::: {.card title="Building dashboards with Python" width=30%}
 
 This dashboard uses the [Plotly Express](https://plotly.com/python/plotly-express/) in Python to create figures that are built at the time of rendering, and then offer a limited amount of interactivity when published as a static html website.
 
@@ -48,15 +47,6 @@ This data is from the paper *Reconciling fast and slow cooling during planetary 
 
 :::
 
-::: {.card }
-
-```{python}
-show(display_data, lengthMenu=[10, 20, 50, 100])
-```
-
-:::
-
-## Column {width=50%}
 
 ```{python}
 
@@ -73,3 +63,17 @@ fig = px.scatter(data, x="avg_r", y="actual_volume",color="Result",symbol="Resul
 
 fig.show()
 ```
+
+
+
+# Underlying data
+
+
+
+::: {.card }
+
+```{python}
+show(display_data, lengthMenu=[10, 20, 50, 100])
+```
+
+:::

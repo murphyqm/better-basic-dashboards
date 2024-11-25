@@ -16,6 +16,8 @@ website:
         text: Example Dash 1
       - href: dash02.qmd
         text: Example Dash 2
+      - href: dash03.qmd
+        text: Example Dash 3
   page-footer:
     background: secondary
     left: Copyright 2024, Maeve Murphy Quinlan
@@ -28,5 +30,3 @@ format:
       - litera
       - custom.scss
     toc: true
-
-
